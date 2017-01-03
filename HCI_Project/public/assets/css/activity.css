@@ -1,0 +1,280 @@
+.activity-main{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    box-shadow:0 2px 5px rgba(187,179,168,.64);
+    margin: 20px 30px 0 3%;
+}
+
+.activity-item a{
+    color: #DC6F53;
+}
+
+.active-mainTitle{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.19);
+}
+
+.activity-contant{
+    position: relative;
+    margin: 40px 250px 0 5%;
+    clear: both;
+}
+
+.active-title{
+    position: relative;
+    margin: 30px 40px 0 5%;
+}
+
+.active-title li{
+    background-color: rgba(0,0,0,0.24);
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.nav li:focus{
+    background-color: black;
+}
+
+.activity-left{
+    float: left;
+}
+
+.activity-right{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.activity-right2{
+    float: left;
+    margin: 20px 0 0 23%;
+}
+
+.activity-rightest{
+    float: left;
+    margin: 20px 0 0 4%;
+}
+
+.activity-change{
+    margin-top: 20px;
+}
+
+.activity-delete{
+    margin-top: 10px;
+}
+
+.activity-item{
+    background-color: #fefdfc;
+    border-bottom: 1px solid #f4f2f1;
+    height: 120px;
+    padding: 0 20px 10px 3%;
+    transition:all .2s ease-in 0s;
+    box-shadow: 0 0 6px rgba(187,179,168,.46);
+}
+
+.activity-item:hover {
+    transform: scaleX(1.04);
+    transition:all .2s ease-in 0s;
+    background-color: #fefdfc;
+    box-shadow:0 2px 5px rgba(187,179,168,.64);
+}
+
+.activity-item:hover span{
+    opacity:1;
+}
+
+
+.activity-type,.activity-number,.activity-time{
+    margin-top: 10px;
+}
+
+.startActivity{
+    float: right;
+    width: 200px;
+    height: 50px;
+    background-color: #ffa200;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 13px;
+}
+.startActivity:hover{
+    float: right;
+    width: 200px;
+    height: 50px;
+    border-color: #ffa200;
+    background-color: #ffa200;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+
+.form-input{
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0px;
+}
+
+.form-input:focus{
+    outline: none;
+    border-color: rgba(104, 184, 40, 0.5);
+}
+
+.form-control{
+    border-left: 1px solid #e4e4e4;
+}
+
+.new-main{
+    box-shadow:0 2px 5px rgba(187,179,168,.64);
+    margin: 20px 30px 0 3%;
+}
+
+.new-mainTitle{
+    position: relative;
+    margin-left: 15px;
+}
+
+.show-main{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 20px 30px 0 3%;
+}
+
+.show-left{
+    padding-top: 20px;
+    float: left;
+}
+.show-right{
+    padding-top: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.show-user{
+    width: 35%;
+    margin-left: 5px;
+    float: right;
+    height: 300px;
+    background-color: #fefdfc;
+    border-bottom: 1px solid #f4f2f1;
+    box-shadow: 0 0 6px rgba(187,179,168,.46);
+    padding: 0 40px 10px 40px;
+}
+
+.show-basicInfo{
+    width: 62%;
+    float: left;
+    position: relative;
+    background-color: #fefdfc;
+    border-bottom: 1px solid #f4f2f1;
+    box-shadow: 0 0 6px rgba(187,179,168,.46);
+    padding: 0 40px 10px 40px;
+}
+
+.show-time{
+    font-size: 13px;
+    line-height: 13px;
+    color: #869288;
+
+    margin-top: 20px;
+}
+
+.show-decription{
+    margin-top: 20px;
+}
+
+.show-picture{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.show-name{
+    line-height: 10px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #DC6F53;
+}
+
+.show-person-name{
+    font-size: 18px;
+    color: #707971;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.show-ul{
+    display: table;
+    margin: 10px auto;
+    border-bottom: 1px solid #dddddd;
+}
+
+.show-ul li{
+    position: relative;
+    display: table-cell;
+    padding: 0 15px 5px;
+}
+
+.show-people{
+    clear: both;
+    margin-top: 200px;
+}
+
+.show-join{
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.show-p{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.show-check{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.show-num,.show-money{
+    margin-top: 5px;
+}
+
+.show-detail-label{
+    font-size: 15px;
+    color: #707971;
+    opacity: .7;
+    margin-top: 10px;
+}
+
+.show-number{
+    font-size: 15px;
+    color: #707971;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.join_name{
+    margin-top: 5px;
+    font-size: 11px;
+    color: #707971;
+    opacity: .9;
+}
+
+.join_step{
+    font-size: 14px;
+    margin-top: 1px;
+}

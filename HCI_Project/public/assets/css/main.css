@@ -1,0 +1,59 @@
+.chart-all{
+    background: white;
+    margin: 30px 40px 0 5%;
+    position: relative;
+    display: block;
+    padding: 15px 15px 15px 20px;
+}
+
+.sport-chart{
+    margin: 200px 40px 40px 5%;
+    background-color: white;
+}
+
+.panel-heading{
+    font-size: 25px;
+}
+
+.lainecons-user{
+    background-image: url("../images/1111.png");
+    width: 20px;
+    height: 20px;
+}
+
+.col-sm-3{
+    width: 31%;
+    margin-left: 2.3%;
+    min-width: 250px;
+}
+
+.static{
+    position: relative;
+    margin: 30px 23px 0 1.35%;
+    display: block;
+    height: 150px;
+}
+
+.static-block{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    margin: 0 0 0 6.8%;
+    background: white;
+    width: 27%;
+    height: 100%;
+    float: left;
+}
+
+.static-step{
+    margin: 0 0 0 5.2%;
+}
+
+.main-content{
+    background-color: #eeeeee;
+    position: relative;
+}
+
+
+
+

@@ -1,0 +1,90 @@
+.wealth-content{
+    position: relative;
+    margin: 20px 30px 0 3%;
+}
+
+span{
+    font-family: "Microsoft YaHei";
+}
+.rank{
+    padding: 10px;
+    position: relative;
+    width: 26.4%;
+    float: left;
+    background-color: white;
+    margin-left: 5%;
+    box-shadow:0 2px 5px rgba(187,179,168,.64);
+}
+
+.wealth-title,.wealth-way{
+    margin-left: 10%;
+}
+
+.wealth-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.wealth-total{
+    margin-top: 20px;
+    margin-left: 14.5%;
+}
+
+.wealth-way{
+    margin-top: 20px;
+}
+
+.way-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.way-contain{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 86%;
+}
+
+.rank-title,.myrank-title{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rank-title{
+    padding: 3px;
+    background-color: #f0cb7d;
+    color: white;
+    font-size: 17px;
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.myrank-title{
+    padding: 3px;
+    background-color: #a0c25f;
+    color: white;
+    font-size: 17px;
+    margin-left: 15%;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.rank-ul{
+    display: table;
+    margin: 10px auto;
+    border-bottom: 1px solid #dddddd;
+}
+
+.rank-ul li{
+    position: relative;
+    display: table-cell;
+    padding: 0 15px 5px;
+}
+
